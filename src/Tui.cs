@@ -64,8 +64,8 @@ class Tui {
 
         while(ck != ConsoleKey.Enter) {
             ck = Console.ReadKey(false).Key;
-            if(ck == ConsoleKey.UpArrow) dec_index();
-            else if(ck == ConsoleKey.DownArrow) inc_index();
+            if(ck == ConsoleKey.UpArrow || ck == ConsoleKey.K) dec_index();
+            else if(ck == ConsoleKey.DownArrow || ck == ConsoleKey.J) inc_index();
             DisplayOptions();
         }
 

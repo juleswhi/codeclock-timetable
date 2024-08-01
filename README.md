@@ -6,8 +6,13 @@
 
 </div>
 
-## Plan
 
-- Read users in
-- Console GUI
+## Download / Build
 
+- Clone repo
+- `cd src`
+- `dotnet build`
+
+## Usage
+
+Enter team names in teams.txt
